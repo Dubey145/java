@@ -41,7 +41,13 @@ public class oops{
         //overriding a super class method, delcare a local method with the same name
         emp.intro();
         james.intro(); 
+        
+        emp.SetId(996);
+        emp.SetSalary(1000000);
 
+        System.out.println(emp); 
+        //if toString had not been overriden then the emp would just print its address but now it knows what to print 
+        /***String is a class***/
     }
     
 }
