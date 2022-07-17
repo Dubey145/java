@@ -26,6 +26,22 @@ public class oops{
         newCube.description();
         //System.out.println(newCube.side); cant access as side is private
        cube secondCube = new cube();
+
+        //inheritance  
+
+        person james = new person("James Bond", 47);
+        System.out.println(james.getName());
+
+        employee emp = new employee();
+        System.out.println(emp.getAge());
+
+        emp.setName("NooB");
+        emp.setAge(30);
+
+        //overriding a super class method, delcare a local method with the same name
+        emp.intro();
+        james.intro(); 
+
     }
     
 }
