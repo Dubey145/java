@@ -5,6 +5,7 @@ public class oops{
     //this is a class
 
     public static void main(String[] args) throws Exception{ 
+        //everything in java is a class
         // this is a method
         //class is a template for the object
         //check class box defined in this folder
