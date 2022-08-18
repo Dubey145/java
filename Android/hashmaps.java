@@ -1,4 +1,4 @@
-//hashmaps are used to store key value pairs 
+//hashmaps are used to store key value pairs aka hesmep
 //import java.util.HashMap;
 
 import java.util.*;
