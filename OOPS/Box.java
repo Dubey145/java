@@ -6,7 +6,6 @@ public class Box {
     private int depth;
     String boxName;
     String color;
-
     //adding methods
 
     public void desc(){
