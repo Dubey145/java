@@ -11,4 +11,8 @@ public class animal {
     public void details(){
         System.out.println(name + " " + color + " " + type);
     }
+    public void eat(){
+        //this is the overridden method
+        System.out.println("Hello I eat food");
+    }
 }
